@@ -1,0 +1,31 @@
+﻿Der Buildvorgang wurde am 26.04.2015 23:55:30 gestartet.
+     1>Projekt "C:\Users\timoe\Desktop\HCI II\assignment2_1\assignment2.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "x64\Debug\assignment2.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\OpenNI\Include" /IC:\OpenCV\opencv\build\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Application.cpp
+         Application.cpp
+     1>Application.cpp(86): warning C4390: ';': Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
+       ManifestResourceCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\timoe\Desktop\HCI II\assignment2_1\x64\Debug\assignment2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\OpenNI\Lib64" /LIBPATH:C:\OpenCV\opencv\build\x64\vc10\lib OpenNI64.lib opencv_core2410d.lib opencv_imgproc2410d.lib opencv_highgui2410d.lib opencv_video2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\assignment2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\timoe\Desktop\HCI II\assignment2_1\x64\Debug\assignment2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\timoe\Desktop\HCI II\assignment2_1\x64\Debug\assignment2.lib" /MACHINE:X64 x64\Debug\assignment2.exe.embed.manifest.res
+         x64\Debug\Application.obj
+         x64\Debug\DepthCamera.obj
+         x64\Debug\DepthCameraException.obj
+         x64\Debug\main.obj
+         assignment2.vcxproj -> C:\Users\timoe\Desktop\HCI II\assignment2_1\x64\Debug\assignment2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\assignment2.exe.embed.manifest" /manifest x64\Debug\assignment2.exe.intermediate.manifest
+         Alle Ausgaben sind aktuell.
+       LinkEmbedManifest:
+         Alle Ausgaben sind aktuell.
+         assignment2.vcxproj -> C:\Users\timoe\Desktop\HCI II\assignment2_1\x64\Debug\assignment2.exe
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\assignment2.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\assignment2.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\timoe\Desktop\HCI II\assignment2_1\assignment2.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:03.40
